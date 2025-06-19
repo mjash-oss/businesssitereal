@@ -15,7 +15,7 @@
     /* All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
     :root {
         --primary: #CFD6DC;
-        --primaryLight: #ffba43;
+        --primaryLight: #4e4b66;
         --secondary: #ffba43;
         --secondaryLight: #ffba43;
         --headerColor: #1a1a1a;
@@ -23,9 +23,9 @@
         --bodyTextColorWhite: #fafbfc;
 
         /* Dark Mode Styles */
-        --dark: #082032;
-        --medium: #2c394b;
-        --accent: #334756;
+        //--dark: #082032;
+        //--medium: #2c394b;
+        //--accent: #334756;
 
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -1260,8 +1260,8 @@
 @media only screen and (min-width: 0rem) {
     #cs-footer-275 {
         padding: var(--sectionPadding);
-        background-color: #1a1a1a;
-        //background-color: black;
+        //background-color: #1a1a1a;
+        background-color: black;
 
         .cs-container {
             width: 100%;
